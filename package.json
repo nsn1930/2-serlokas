@@ -1,0 +1,18 @@
+{
+  "name": "2-serlokas",
+  "version": "1.0.0",
+  "description": "Pirmasis, siet tien normalesnio dizaino projektas 🕵️‍♂️",
+  "main": "index.js",
+  "scripts": {
+    "dev": "live-server --port=3000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "html"
+  ],
+  "author": "Pavel",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
