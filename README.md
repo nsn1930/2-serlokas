@@ -2,7 +2,7 @@
 ![Security Status](https://img.shields.io/security-headers?label=Security&url=https%3A%2F%2Fgithub.com&style=flat-square)
 ![Gluten Status](https://img.shields.io/badge/Gluten-Free-green.svg)
 ![Eco Status](https://img.shields.io/badge/ECO-Friendly-green.svg)
-![Danger](https://img.shields.io/badge/Danger-%E2%98%A3-brightgreen)
+![Vegan](https://img.shields.io/badge/Vegan-%F0%9F%8D%83-green)
 
 # New-per portfolio
 
