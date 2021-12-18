@@ -1,0 +1,19 @@
+.container {
+    display: inline-block;
+    width: 800px;
+    margin: 100px calc(50% - 400px);
+}
+
+
+.container > .right-column {
+    float: left;
+    width: 40%;
+}
+
+.container > .left-column {
+    float: left; 
+    width:50%; 
+    margin-left: 10%; 
+    margin-top: 13%;
+    text-align: center;
+}

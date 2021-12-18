@@ -1,0 +1,39 @@
+/* base */
+@import '../base/layout.css';
+@import '../base/reset.css';
+@import '../base/variables.css';
+
+/* 3rd party */
+
+/* components */
+@import '../components/button.css';
+
+body {
+    background-color: #eaebed;
+}
+
+.container {
+    color: #343E48;
+}
+
+.container .title {
+    display: inline-block; 
+    width: 100%; 
+    font-size: 100px; 
+    font-weight: bold; 
+    margin-top: 0px; 
+    margin-bottom: 0px;
+}
+
+.container .describtion {
+    display: inline-block; 
+    width: 100%; 
+    font-size: 30px; 
+    margin-top: 0px;
+}
+
+.container .note {
+    display: inline-block; 
+    width: 100%; 
+    font-size: 18px;
+}
