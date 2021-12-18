@@ -29,11 +29,12 @@ body {
     display: inline-block; 
     width: 100%; 
     font-size: 30px; 
-    margin-top: 0px;
+    margin: 0 0 30px;
 }
 
 .container .note {
     display: inline-block; 
     width: 100%; 
     font-size: 18px;
+    margin: 0 0 20px;
 }

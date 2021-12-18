@@ -1,7 +1,12 @@
+body {
+    position: relative;
+}
+
 .container {
     display: inline-block;
     width: 800px;
     margin: 100px calc(50% - 400px);
+    /* background-color: antiquewhite; */
 }
 
 
@@ -12,8 +17,71 @@
 
 .container > .left-column {
     float: left; 
-    width:50%; 
+    width: 50%; 
     margin-left: 10%; 
-    margin-top: 13%;
+    margin-top: 10%;
     text-align: center;
+}
+
+@media (max-width: 900px) {
+    .container {
+        width: 700px;
+        margin: 100px calc(50% - 350px);
+        /* background-color: antiquewhite; */
+    }
+}
+
+@media (max-width: 750px) {
+    .container {
+        width: 500px;
+        margin: 100px calc(50% - 250px);
+        /* background-color: antiquewhite; */
+    }
+
+    .container > .right-column {
+        margin-top: 40px;
+    }
+    
+    .container > .left-column {
+        margin-top: 0;
+        /* background-color: red; */
+    }
+}
+
+@media (max-width: 550px) {
+    body {
+        position: relative;
+        height: 100vh;
+    }
+
+    .background-div {
+        /* min-height: 100vh;
+        padding-bottom: 30px; */
+        background-image: url(../../img/serlokas.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 100%;
+        filter: blur(1.5rem);
+    }
+
+    .container {
+        width: 350px;
+        margin: 100px calc(50% - 175px);
+        
+    }
+    
+    .container > .right-column {
+        display: none;
+        width: 0;
+    }
+
+    .container > .left-column {
+        color: aliceblue;
+        margin-left: 0;
+        width: 100%;
+        position: absolute;
+        top: 100px;
+        left: 0;
+    }
 }
